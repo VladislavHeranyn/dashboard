@@ -2,7 +2,7 @@ const development = {
   lsTokenKey: 'auth-data',
   clientId:
     '482039686904-ihpee3br3p9m6o3a2ad02ffkcopkvbca.apps.googleusercontent.com',
-  baseUrl: process.env.VUE_APP_BASE_URL,
+  baseUrl: 'http://localhost:8080',
   scope: 'profile email',
   prompt: 'select_account'
 };
@@ -11,7 +11,7 @@ const production = {
   lsTokenKey: 'auth-data',
   clientId:
     '482039686904-ihpee3br3p9m6o3a2ad02ffkcopkvbca.apps.googleusercontent.com',
-  baseUrl: process.env.VUE_APP_BASE_URL,
+  baseUrl: 'http://localhost:8080',
   scope: 'profile email',
   prompt: 'select_account'
 };
